@@ -1,3 +1,7 @@
+import numpy
+import collections
+import inspect
+
 def bic(log_likelihood, k, n):
     """Returns the score for the Bayesian information criterion (BIC-score) for the given log-likelihood, number
         of parameters k and and number of observations n

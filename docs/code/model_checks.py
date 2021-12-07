@@ -32,7 +32,7 @@ from bandit.envs import MultiBanditTask
 from bandit.agents import RW, WSLS, RandomPlayer
 
 # Import development helper bundle
-from coopihc.bundle import ModelChecks
+from modelchecks import ModelChecks
 
 print("Imports complete.")
 

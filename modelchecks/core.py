@@ -1,8 +1,9 @@
-# Core libraries
-from typing import Dict, List, Tuple
+# CoopIHC libraries
 from coopihc.agents import BaseAgent
 from coopihc.bundle import Bundle
-from helpers import (
+
+# Core libraries
+from .utils import (
     order_class_parameters_by_signature,
     bic,
     aic,
@@ -10,6 +11,7 @@ from helpers import (
 )
 
 # Standard libraries
+from typing import Dict, List, Tuple
 from dataclasses import dataclass
 import pandas as pd
 import matplotlib.axes
@@ -28,7 +30,6 @@ from collections import OrderedDict
 import pyro
 import pyro.distributions
 import torch
-import jax
 
 
 class ModelChecks(Bundle):
