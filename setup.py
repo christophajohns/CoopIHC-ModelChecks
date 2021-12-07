@@ -28,7 +28,7 @@ REQUIRED = [
     'tqdm',
     'statsmodels',
     'tabulate',
-    'pyro',
+    'pyro-ppl',
     'torch',
     # 'requests', 'maya', 'records',
 ]
