@@ -18,7 +18,7 @@ URL = 'https://github.com/christophajohns/CoopIHC-ModelChecks'
 EMAIL = 'christoph.johns@aalto.fi'
 AUTHOR = 'Christoph Johns'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.0'
+VERSION = False # specified in modelchecks/__version__.py
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -57,7 +57,8 @@ except FileNotFoundError:
 # Load the package's __version__.py module as a dictionary.
 about = {}
 if not VERSION:
-    project_slug = NAME.lower().replace("-", "_").replace(" ", "_")
+    # project_slug = NAME.lower().replace("-", "_").replace(" ", "_")
+    project_slug = "modelchecks"
     with open(os.path.join(here, project_slug, '__version__.py')) as f:
         exec(f.read(), about)
 else:
