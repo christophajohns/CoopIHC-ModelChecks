@@ -2,7 +2,7 @@
 from typing import Dict, List, Tuple
 from coopihc.agents import BaseAgent
 from coopihc.bundle import Bundle
-from coopihc.helpers import (
+from helpers import (
     order_class_parameters_by_signature,
     bic,
     aic,
