@@ -19,7 +19,7 @@ python -m pip install coopihc-modelchecks
 
 ```
 
-The reader is supported on Python 3.6 and above.
+The package is supported on Python 3.6 and above.
 
 ## Resources
 
@@ -31,4 +31,4 @@ The reader is supported on Python 3.6 and above.
 
 If you want to contribute to this project, you can setup the project locally by cloning the repository and installing the dependencies specified in [setup.py](setup.py).
 
-To publish a new version to PyPI, you can update the version specified in [__version__.py](modelchecks/__version__.py) and run `$ python setup.py upload` from the command line.
+To publish a new version to PyPI, you can update the version specified in [**version**.py](modelchecks/__version__.py) and run `$ python setup.py upload` from the command line.
